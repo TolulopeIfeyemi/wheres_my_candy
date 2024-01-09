@@ -22,7 +22,7 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
         />
         <AlexButton
           imgSrc={halloween_candy}
-          text='In The Halowwen Candy'
+          text='In The Halloween Candy'
           onClick={() => setAnswer(Answer.BehindTheBuilding)}
           selected={answer ? answer === Answer.BehindTheBuilding : undefined}
         />
@@ -44,7 +44,7 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
 
 type AlexButtonProps = {
   imgSrc: string;
-  text: 'In the Weeds' ;
+  text: string ;
   selected?: boolean;
   onClick: () => void;
 };

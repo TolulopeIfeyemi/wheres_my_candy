@@ -3,7 +3,7 @@ import { z } from 'zod';
 
 export enum Answer {
   InTheWeeds = 'In Candy Island',
-  BehindTheBuilding = 'In The Halowwen Candy',
+  BehindTheBuilding = 'In The Halloween Candy',
 }
 
 export const getAnswer = (answer: '0field' | '1field') =>
