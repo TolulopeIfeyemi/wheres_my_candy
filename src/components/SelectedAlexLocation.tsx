@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import behindBuildingImg from '../assets/behind_building.svg';
-import inWeedsImg from '../assets/in_weeds.jpg';
+// import behindBuildingImg from '../assets/behind_building.svg';
+// import inWeedsImg from '../assets/in_weeds.jpg';
+import candy_island from '../assets/Candy-Island.jpeg';
+import halloween_candy from '../assets/Halloween-Candy.png';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx.js';
 
 type SelectedAlexLocationProps = {
@@ -14,7 +16,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
       <div className='flex w-1/2 flex-col gap-2 self-start'>
         <img
           loading='lazy'
-          src={inWeedsImg}
+          src={candy_island}
           className={`aspect-square w-full self-stretch overflow-hidden rounded-[50%] object-cover object-center
                       ${answer === Answer.InTheWeeds ? '' : 'opacity-40'}`}
           alt={Answer.InTheWeeds}
@@ -29,7 +31,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
                             : 'text-primary-white'
                         }`}
           >
-            In the Weeds
+            In Candy Island
           </div>
         )}
       </div>
@@ -41,7 +43,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
       <div className='flex w-1/2 flex-col gap-2 self-start'>
         <img
           loading='lazy'
-          src={behindBuildingImg}
+          src={halloween_candy}
           className={`aspect-square w-full self-stretch overflow-hidden rounded-[50%] object-cover object-center
                       ${
                         answer === Answer.BehindTheBuilding ? '' : 'opacity-40'
@@ -62,7 +64,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
                             : 'text-primary-white'
                         }`}
           >
-            Behind the Building
+            Halloween Candy
           </div>
         )}
       </div>
