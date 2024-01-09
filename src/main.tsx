@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       dAppName="Where's Alex?"
       dAppDescription='A friendly wager between friends'
       dAppUrl='https://wheresalex.puzzle.online'
-      dAppIconURL='https://wheresalex.puzzle.online/alex_head.png'
+      dAppIconURL='https://wheresalex.puzzle.online/candy4.jpeg'
     >
       <App />
     </PuzzleWalletProvider>
