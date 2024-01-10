@@ -1,6 +1,7 @@
-import inWeedsImg from '../assets/in_weeds.jpg';
-import behindBuildingImg from '../assets/behind_building.svg';
-
+// import inWeedsImg from '../assets/in_weeds.jpg';
+// import behindBuildingImg from '../assets/behind_building.svg';
+import candy_island from '../assets/Candy_Island.jpeg';
+import halloween_candy from '../assets/Halloween_Candy.png';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx';
 
 type HideAlexProps = {
@@ -14,14 +15,14 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
     <section className='mt-4 flex max-w-full flex-col gap-4'>
       <div className='flex gap-5'>
         <AlexButton
-          imgSrc={inWeedsImg}
-          text='In the Weeds'
+          imgSrc={candy_island}
+          text='In Candy Island'
           onClick={() => setAnswer(Answer.InTheWeeds)}
           selected={answer ? answer === Answer.InTheWeeds : undefined}
         />
         <AlexButton
-          imgSrc={behindBuildingImg}
-          text='Behind the Building'
+          imgSrc={halloween_candy}
+          text='In The Halloween Candy'
           onClick={() => setAnswer(Answer.BehindTheBuilding)}
           selected={answer ? answer === Answer.BehindTheBuilding : undefined}
         />

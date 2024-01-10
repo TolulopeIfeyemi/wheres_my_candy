@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // import behindBuildingImg from '../assets/behind_building.svg';
 // import inWeedsImg from '../assets/in_weeds.jpg';
-import candy_island from '../assets/Candy-Island.jpeg';
-import halloween_candy from '../assets/Halloween-Candy.png';
+import candy_island from '../assets/Candy_Island.jpeg';
+import halloween_candy from '../assets/Halloween_Candy.png';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx.js';
 
 type SelectedAlexLocationProps = {
