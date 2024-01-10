@@ -1,6 +1,6 @@
 // import inWeedsImg from '../assets/in_weeds.jpg';
 // import behindBuildingImg from '../assets/behind_building.svg';
-import candy_island from '../assets/Candy-Island.jpeg';
+import candy_island from '../assets/candy-island.jpeg';
 import halloween_candy from '../assets/Halloween-Candy.png';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx';
 
