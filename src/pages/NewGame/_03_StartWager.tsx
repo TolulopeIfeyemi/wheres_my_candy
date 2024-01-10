@@ -67,7 +67,7 @@ function StartWager() {
         placeholder='Enter amount'
       />
       <p className='mx-auto mt-6'>
-        {'Available balance: ' + availableBalance} candss
+        {'Available balance: ' + availableBalance} cands
       </p>
       {error && <p className='mx-auto text-primary-red'>{error}</p>}
       <div className='flex flex-grow flex-col' />
