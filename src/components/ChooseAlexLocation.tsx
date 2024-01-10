@@ -1,7 +1,7 @@
 // import inWeedsImg from '../assets/in_weeds.jpg';
 // import behindBuildingImg from '../assets/behind_building.svg';
-import candy_island from '../assets/Candy_Island.jpeg';
-import halloween_candy from '../assets/Halloween_Candy.png';
+import candy_island from '../assets/candy_island.jpeg';
+import halloween_candy from '../assets/halloween_candy.png';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx';
 
 type HideAlexProps = {
